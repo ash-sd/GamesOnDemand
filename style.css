@@ -1,0 +1,10 @@
+h1, p{
+  width: 600px;
+  border-sizing: border-box;
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  background-color: #eeeae4;
+}
