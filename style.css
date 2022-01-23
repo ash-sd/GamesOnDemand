@@ -1,64 +1,81 @@
 *{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  margin:0;
+  padding:0;
+  box-sizing: border-border-box;
 }
-
-header{
+.container{
+margin: 20px
+}
+.nav{
+  display:flex;
   align-items: center;
-  padding: 7px;
-}
-ul{
-  list-style: none;
-  margin-left: 210px;
-  max-width: 80%;
-  margin-top: -51;
-}
-
-li {
-    display: inline;
-    margin: 1%;
-
-}
-.logo{
-  display:inline-flex;
 }
 .navbar{
-  margin-top:-40px;
-  margin-left:40px;
+  margin-left:80px;
 }
-
 .navbar a{
-
-  color:#333;
-  font-weight:bolder;
-  font-size: 18px;
+  margin: 0 10px;
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+  font-size:17px;
 }
-
-.subnavbar{
-  margin-left: 0%;
+.lowNav a {
+  margin: 10px;
+  text-decoration: none;
+  color:black;
+}
+.lowNav{
+  margin-top:30px;
+}
+.title h1{
+  margin: 20px 0;
+}
+.contentContainer{
+  margin:20px;
   margin-top: 60px;
 }
-.subnavbar a{
-  color: #333;
+.product{
+  display:inline-block;
+  margin:20px;
+  margin-top:30px;
+  padding:20px;
+  border: 2px solid gray;
 }
-.subnavbar p{
-  display: inline;
+.product h1{
+  margin: 20px 0;
+  margin-top:20px;
 }
-.title{
-  padding-left: 2% ;
+.product p{
+  margin-top:5px
 }
-.products img{
-  width: 200px;
-  margin:15px;
+.gray{
+  color:gray;
 }
-.products{
-  display: inline-block;
-  margin-left: 30px;
-  padding:10px;
-  border-style: solid;
-  border-color: lightgray;
+.green{
+  color:green;
 }
-.products p{
-  padding: 3px;
+@media screen and (max-width:800px) {
+
+  .nav{
+    display:block;
+
+  }
+  .logo{
+    display:flex;
+    justify-content: center;
+    margin-bottom:30px;
+
+  }
+  .navContainer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+    padding:0;
+  }
+  .navbar{
+    margin:0;
+  }
+
 }
